@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FAACD567245F4D89009B7ED9 /* CompasMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAACD566245F4D89009B7ED9 /* CompasMarkerView.swift */; };
+		FAACD569245F4DA4009B7ED9 /* Marker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAACD568245F4DA4009B7ED9 /* Marker.swift */; };
 		FADF0616245DF6D100874B03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADF0615245DF6D100874B03 /* AppDelegate.swift */; };
 		FADF0618245DF6D100874B03 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADF0617245DF6D100874B03 /* SceneDelegate.swift */; };
 		FADF061A245DF6D100874B03 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADF0619245DF6D100874B03 /* ContentView.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FAACD566245F4D89009B7ED9 /* CompasMarkerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompasMarkerView.swift; sourceTree = "<group>"; };
+		FAACD568245F4DA4009B7ED9 /* Marker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marker.swift; sourceTree = "<group>"; };
 		FADF0612245DF6D100874B03 /* Compass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Compass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FADF0615245DF6D100874B03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FADF0617245DF6D100874B03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +63,8 @@
 				FADF0615245DF6D100874B03 /* AppDelegate.swift */,
 				FADF0617245DF6D100874B03 /* SceneDelegate.swift */,
 				FADF0619245DF6D100874B03 /* ContentView.swift */,
+				FAACD566245F4D89009B7ED9 /* CompasMarkerView.swift */,
+				FAACD568245F4DA4009B7ED9 /* Marker.swift */,
 				FADF061B245DF6D200874B03 /* Assets.xcassets */,
 				FADF0620245DF6D200874B03 /* LaunchScreen.storyboard */,
 				FADF0623245DF6D200874B03 /* Info.plist */,
@@ -147,8 +153,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FADF0616245DF6D100874B03 /* AppDelegate.swift in Sources */,
+				FAACD567245F4D89009B7ED9 /* CompasMarkerView.swift in Sources */,
 				FADF0618245DF6D100874B03 /* SceneDelegate.swift in Sources */,
 				FADF061A245DF6D100874B03 /* ContentView.swift in Sources */,
+				FAACD569245F4DA4009B7ED9 /* Marker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +294,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Compass/Preview Content\"";
+				DEVELOPMENT_TEAM = DLQU87M3JE;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Compass/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -305,6 +314,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Compass/Preview Content\"";
+				DEVELOPMENT_TEAM = DLQU87M3JE;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Compass/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
